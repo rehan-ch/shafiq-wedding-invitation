@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-link: https://cozy-croquembouche-3dc57b.netlify.app/
+link: https://shafiqweddinginvite.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
