@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import mehndi from './mehndi.png'
+import waleema from './waleema.jpeg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h1>Wellcome</h1>
+      </div>
+        <img src={mehndi} className="" alt="logo" />
+        {/* <img src={waleema} className="" alt="logo" /> */}
     </div>
   );
 }
