@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import mehndi from './mehndi.png'
-import waleema from './waleema.jpeg'
-
+import headerImg from './assets/1.jpg';
+import bannerImg from './assets/2.jpg';
+import addressImg from './assets/3.jpg';
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1>Wellcome</h1>
-      </div>
-        <img src={mehndi} className="" alt="logo" />
-        {/* <img src={waleema} className="" alt="logo" /> */}
+      <img src={headerImg} alt='header' />
+      <img src={bannerImg} alt='banner' />
+      <img src={addressImg} alt='address' />
     </div>
   );
 }
